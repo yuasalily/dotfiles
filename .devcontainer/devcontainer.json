@@ -1,5 +1,5 @@
 {
-	"name": "dotfile",
+	"name": "dotfiles",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
 	// Configure tool-specific properties.
@@ -20,7 +20,10 @@
 				"workbench.tree.renderIndentGuides": "always",
 				"editor.codeActionsOnSave": {
 					"source.organizeImports": true
-				}
+				},
+				"dotfiles.repository": "https://github.com/yuasalily/dotfiles.git",
+				"dotfiles.targetPath": "~/dotfiles",
+				"dotfiles.installCommand": "~/dotfiles/install.sh"
 			}
 		}
 	},
