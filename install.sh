@@ -1,8 +1,10 @@
 #!/bin/bash
 
-echo "Hello"
-alias la="ls -a"
-alias superlongls="ls"
+echo "start install.sh"
+
+pushd ~
+ln -fs ~/dotfiles/.bashrc .
+popd
 
 mkdir -p "$HOME/.config"
 mkdir -p "$HOME/test"
