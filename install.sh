@@ -2,6 +2,4 @@
 
 echo "start install.sh"
 
-pushd ~
-ln -fs ~/dotfiles/.bashrc .
-popd
+cp -f ~/dotfiles/.bashrc ~
