@@ -8,4 +8,4 @@ cp -f ~/dotfiles/.zshrc ~
 apt install -y zsh
 
 curl -sS https://starship.rs/install.sh -o starship.sh
-yes | sh starship.sh
+sh starship.sh --yes
