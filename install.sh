@@ -4,7 +4,10 @@ echo "start install.sh"
 
 pushd ~
 ln -fs ~/dotfiles/.bashrc .
+ln -fs ~/dotfiles/.zshrc .
 popd
 
-mkdir -p "$HOME/.config"
-mkdir -p "$HOME/test"
+curl -sS https://starship.rs/install.sh
+yes | sh install.sh
+
+apt install zsh
