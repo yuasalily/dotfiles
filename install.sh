@@ -9,5 +9,3 @@ popd
 
 curl -sS https://starship.rs/install.sh
 yes | sh install.sh
-
-apt install zsh -y
