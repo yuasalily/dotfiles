@@ -14,6 +14,3 @@ alias superlongls='ls'
 
 
 eval "$(starship init zsh)"
-
-zinit light zsh-users/zsh-autosuggestions
-zinit light zdharma-continuum/fast-syntax-highlighting
