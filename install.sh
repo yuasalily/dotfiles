@@ -10,3 +10,4 @@ mkdir $HOME/.config
 apt install -y zsh
 
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
+starship preset no-nerd-font -o ~/.config/starship.toml
