@@ -16,4 +16,6 @@ yes | bash -c "$(curl --fail --show-error --silent --location https://raw.github
 
 source ~/.zshrc
 
+echo "test"
+
 zinit light zdharma-continuum/fast-syntax-highlighting
