@@ -14,3 +14,4 @@ alias superlongls='ls'
 
 
 eval "$(starship init zsh)"
+eval "$(sheldon source)"
