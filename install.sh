@@ -15,3 +15,5 @@ apt install -y zsh
 curl -sS https://starship.rs/install.sh | sh -s -- --yes
 starship preset plain-text-symbols -o ~/.config/starship.toml
 curl --proto '=https' -fLsS https://rossmacarthur.github.io/install/crate.sh | bash -s -- --repo rossmacarthur/sheldon --to ~/.local/bin
+
+source $HOME/.zshrc
