@@ -8,7 +8,7 @@ mkdir $HOME/.config/sheldon
 cp -f $HOME/dotfiles/.bashrc $HOME
 cp -f $HOME/dotfiles/.zshrc $HOME
 
-cp -f $HOME/dotfiles/.plugins.toml $HOME/.config/sheldon
+cp -f $HOME/dotfiles/plugins.toml $HOME/.config/sheldon
 
 apt install -y zsh
 
