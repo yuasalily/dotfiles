@@ -9,4 +9,4 @@ mkdir $HOME/.config
 
 apt install -y zsh
 
-curl -sS https://starship.rs/install.sh | sh --yes
+curl -sS https://starship.rs/install.sh | sh -s -- --yes
