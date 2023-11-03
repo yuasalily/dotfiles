@@ -16,3 +16,5 @@ yes | bash -c "$(curl --fail --show-error --silent --location https://raw.github
 
 echo "zinit light zsh-users/zsh-autosuggestions" >> ~/.zshrc
 echo "zinit light zdharma-continuum/fast-syntax-highlighting" >> ~/.zshrc
+
+source ~/.zshrc
